@@ -12,6 +12,7 @@ import MUIBox from "./components/10.MUIBox";
 import MUIStack from "./components/11.MUIStack";
 import MUIGrid from "./components/12.MIUGrid";
 import MUIPaper from "./components/12.MUIPaper";
+import MUICard from "./components/13.MUICard";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <MUIBox /> */}
       {/* <MUIStack /> */}
       {/* <MUIGrid /> */}
-      <MUIPaper />
+      {/* <MUIPaper /> */}
+      <MUICard />
     </div>
   );
 }
