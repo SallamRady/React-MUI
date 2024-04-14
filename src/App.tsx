@@ -16,6 +16,7 @@ import MUICard from "./components/13.MUICard";
 import MUIAccordion from "./components/14.MUIAccordion";
 import MUIAccordion2 from "./components/15.MUIAccordion2";
 import MUIImagesList from "./components/16.MUIImageList";
+import MUINavbar from "./components/17.MUINavbarAndMenu";
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
       {/* <MUICard /> */}
       {/* <MUIAccordion /> */}
       {/* <MUIAccordion2 /> */}
-      <MUIImagesList />
+      {/* <MUIImagesList /> */}
+      <MUINavbar />
     </div>
   );
 }
