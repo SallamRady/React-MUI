@@ -9,6 +9,7 @@ import MUISwitchBtn from "./components/07.MUISwitchBtn";
 import MUIRating from "./components/08.MUIRating";
 import MUIAutoComplete from "./components/09.MUIAutoComplete";
 import MUIBox from "./components/10.MUIBox";
+import MUIStack from "./components/11.MUIStack";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <MUISwitchBtn /> */}
       {/* <MUIRating /> */}
       {/* <MUIAutoComplete /> */}
-      <MUIBox />
+      {/* <MUIBox /> */}
+      <MUIStack />
     </div>
   );
 }
