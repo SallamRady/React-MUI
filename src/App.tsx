@@ -10,10 +10,11 @@ import MUIRating from "./components/08.MUIRating";
 import MUIAutoComplete from "./components/09.MUIAutoComplete";
 import MUIBox from "./components/10.MUIBox";
 import MUIStack from "./components/11.MUIStack";
+import MUIGrid from "./components/12.MIUGrid";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <MUITypography /> */}
       {/* <MUIButtons /> */}
       {/* <MUITextfield /> */}
@@ -24,7 +25,8 @@ function App() {
       {/* <MUIRating /> */}
       {/* <MUIAutoComplete /> */}
       {/* <MUIBox /> */}
-      <MUIStack />
+      {/* <MUIStack /> */}
+      <MUIGrid />
     </div>
   );
 }
