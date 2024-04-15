@@ -20,6 +20,7 @@ import MUINavbar from "./components/17.MUINavbarAndMenu";
 import MUILink from "./components/18.MUILink";
 import MUIBreadCrumbs from "./components/19.MUIBreadCrumbs";
 import MUIDrawer from "./components/20.MUIDrawer";
+import MUISpeedDial from "./components/21.MUISpeedDial";
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
       {/* <MUINavbar /> */}
       {/* <MUILink /> */}
       {/* <MUIBreadCrumbs /> */}
-      <MUIDrawer />
+      {/* <MUIDrawer /> */}
+      <MUISpeedDial />
     </div>
   );
 }
