@@ -18,6 +18,7 @@ import MUIAccordion2 from "./components/15.MUIAccordion2";
 import MUIImagesList from "./components/16.MUIImageList";
 import MUINavbar from "./components/17.MUINavbarAndMenu";
 import MUILink from "./components/18.MUILink";
+import MUIBreadCrumbs from "./components/19.MUIBreadCrumbs";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <MUIAccordion2 /> */}
       {/* <MUIImagesList /> */}
       {/* <MUINavbar /> */}
-      <MUILink />
+      {/* <MUILink /> */}
+      <MUIBreadCrumbs />
     </div>
   );
 }
