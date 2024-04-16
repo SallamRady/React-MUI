@@ -28,6 +28,7 @@ import MUIList from "./components/25.MUIList";
 import MUIChip from "./components/26.MUIChip";
 import MUITooltip from "./components/27.MUITooltip";
 import MUITable from "./components/28.MUITable";
+import MUIAlert from "./components/29.MUIAlert";
 
 function App() {
   return (
@@ -60,7 +61,8 @@ function App() {
       {/* <MUIList /> */}
       {/* <MUIChip /> */}
       {/* <MUITooltip /> */}
-      <MUITable />
+      {/* <MUITable /> */}
+      <MUIAlert />
     </div>
   );
 }
