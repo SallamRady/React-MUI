@@ -22,6 +22,9 @@ import MUIBreadCrumbs from "./components/19.MUIBreadCrumbs";
 import MUIDrawer from "./components/20.MUIDrawer";
 import MUISpeedDial from "./components/21.MUISpeedDial";
 import MUIButtonNavigation from "./components/22.MUIButtonNavigation";
+import MUIAvtar from "./components/23.MUIAvtar";
+import MUIBadge from "./components/24.MUIBadge";
+import MUIList from "./components/25.MUIList";
 
 function App() {
   return (
@@ -48,7 +51,10 @@ function App() {
       {/* <MUIBreadCrumbs /> */}
       {/* <MUIDrawer /> */}
       {/* <MUISpeedDial /> */}
-      <MUIButtonNavigation />
+      {/* <MUIButtonNavigation /> */}
+      {/* <MUIAvtar /> */}
+      {/* <MUIBadge /> */}
+      <MUIList />
     </div>
   );
 }
