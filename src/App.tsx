@@ -26,6 +26,7 @@ import MUIAvtar from "./components/23.MUIAvtar";
 import MUIBadge from "./components/24.MUIBadge";
 import MUIList from "./components/25.MUIList";
 import MUIChip from "./components/26.MUIChip";
+import MUITooltip from "./components/27.MUITooltip";
 
 function App() {
   return (
@@ -56,7 +57,8 @@ function App() {
       {/* <MUIAvtar /> */}
       {/* <MUIBadge /> */}
       {/* <MUIList /> */}
-      <MUIChip />
+      {/* <MUIChip /> */}
+      <MUITooltip />
     </div>
   );
 }
