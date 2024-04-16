@@ -27,6 +27,7 @@ import MUIBadge from "./components/24.MUIBadge";
 import MUIList from "./components/25.MUIList";
 import MUIChip from "./components/26.MUIChip";
 import MUITooltip from "./components/27.MUITooltip";
+import MUITable from "./components/28.MUITable";
 
 function App() {
   return (
@@ -58,7 +59,8 @@ function App() {
       {/* <MUIBadge /> */}
       {/* <MUIList /> */}
       {/* <MUIChip /> */}
-      <MUITooltip />
+      {/* <MUITooltip /> */}
+      <MUITable />
     </div>
   );
 }
