@@ -25,6 +25,7 @@ import MUIButtonNavigation from "./components/22.MUIButtonNavigation";
 import MUIAvtar from "./components/23.MUIAvtar";
 import MUIBadge from "./components/24.MUIBadge";
 import MUIList from "./components/25.MUIList";
+import MUIChip from "./components/26.MUIChip";
 
 function App() {
   return (
@@ -54,7 +55,8 @@ function App() {
       {/* <MUIButtonNavigation /> */}
       {/* <MUIAvtar /> */}
       {/* <MUIBadge /> */}
-      <MUIList />
+      {/* <MUIList /> */}
+      <MUIChip />
     </div>
   );
 }
