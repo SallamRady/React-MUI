@@ -29,6 +29,7 @@ import MUIChip from "./components/26.MUIChip";
 import MUITooltip from "./components/27.MUITooltip";
 import MUITable from "./components/28.MUITable";
 import MUIAlert from "./components/29.MUIAlert";
+import MUISnackbar from "./components/30.MUISnackbar";
 
 function App() {
   return (
@@ -62,7 +63,8 @@ function App() {
       {/* <MUIChip /> */}
       {/* <MUITooltip /> */}
       {/* <MUITable /> */}
-      <MUIAlert />
+      {/* <MUIAlert /> */}
+      <MUISnackbar />
     </div>
   );
 }
