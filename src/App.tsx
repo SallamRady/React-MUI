@@ -40,6 +40,7 @@ import MUIDateAndTime from "./components/35.MUIDateAndTime";
 import MUITabs from "./components/36.MUITabs";
 import MUITimeLine from "./components/37.MUITimeLine";
 import MUIMasonry from "./components/38.MUIMasonry";
+import MUIResponsiveness from "./components/39.MUIResponsiveness";
 
 function App() {
   return (
@@ -82,7 +83,8 @@ function App() {
       {/* <MUIDateAndTime /> */}
       {/* <MUITabs /> */}
       {/* <MUITimeLine /> */}
-      <MUIMasonry />
+      {/* <MUIMasonry /> */}
+      <MUIResponsiveness />
     </LocalizationProvider>
   );
 }
