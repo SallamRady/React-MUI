@@ -31,6 +31,7 @@ import MUITable from "./components/28.MUITable";
 import MUIAlert from "./components/29.MUIAlert";
 import MUISnackbar from "./components/30.MUISnackbar";
 import MUIDialog from "./components/31.MUIDialog";
+import MUIProgress from "./components/32.MUIProgressBar";
 
 function App() {
   return (
@@ -66,7 +67,8 @@ function App() {
       {/* <MUITable /> */}
       {/* <MUIAlert /> */}
       {/* <MUISnackbar /> */}
-      <MUIDialog />
+      {/* <MUIDialog /> */}
+      <MUIProgress />
     </div>
   );
 }
