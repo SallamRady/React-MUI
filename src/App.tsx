@@ -34,10 +34,13 @@ import MUIDialog from "./components/31.MUIDialog";
 import MUIProgress from "./components/32.MUIProgressBar";
 import MUISkeleton from "./components/33.MUISkeleton";
 import MUILoadingBtn from "./components/34.MUILoadingBtn";
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import MUIDateAndTime from "./components/35.MUIDateAndTime";
 
 function App() {
   return (
-    <div>
+    <LocalizationProvider dateAdapter={AdapterDayjs}>
       {/* <MUITypography /> */}
       {/* <MUIButtons /> */}
       {/* <MUITextfield /> */}
@@ -72,8 +75,9 @@ function App() {
       {/* <MUIDialog /> */}
       {/* <MUIProgress /> */}
       {/* <MUISkeleton /> */}
-      <MUILoadingBtn />
-    </div>
+      {/* <MUILoadingBtn /> */}
+      <MUIDateAndTime />
+    </LocalizationProvider>
   );
 }
 
