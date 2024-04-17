@@ -2,6 +2,7 @@ import { Stack } from "@mui/material";
 import { DatePicker, DateTimePicker, TimePicker } from "@mui/x-date-pickers";
 import dayjs, { Dayjs } from "dayjs";
 import { useState } from "react";
+import { DateRange, DateRangePicker } from "@mui/x-date-pickers-pro";
 
 /**
  * * To deal with date and time in react mui we use.
@@ -23,9 +24,17 @@ import { useState } from "react";
  * * ------------------------------------------
  *
  * *Step3::use package like u want.
+ *
+ *
+ * * To use DateRangePicker which allow u to select range of 2 dates
+ * * Need::npm i @mui/x-date-pickers-pro
  */
 export default function MUIDateAndTime() {
   const [value, setValue] = useState<Dayjs | null>(null);
+  const [rangeDate, setRangeDate] = useState<DateRange<Dayjs>>([
+    dayjs("2022-04-17"),
+    dayjs("2022-04-21"),
+  ]);
 
   console.log("date Value", value);
   return (
@@ -43,6 +52,11 @@ export default function MUIDateAndTime() {
       <DateTimePicker value={value} onChange={setValue} />
       {/* just time */}
       <TimePicker value={value} onChange={setValue} />
+      {/* Range Date */}
+      <DateRangePicker
+        value={rangeDate}
+        onChange={(newValue) => setRangeDate(newValue)}
+      />
     </Stack>
   );
 }
