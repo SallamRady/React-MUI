@@ -37,6 +37,7 @@ import MUILoadingBtn from "./components/34.MUILoadingBtn";
 import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import MUIDateAndTime from "./components/35.MUIDateAndTime";
+import MUITabs from "./components/36.MUITabs";
 
 function App() {
   return (
@@ -76,7 +77,8 @@ function App() {
       {/* <MUIProgress /> */}
       {/* <MUISkeleton /> */}
       {/* <MUILoadingBtn /> */}
-      <MUIDateAndTime />
+      {/* <MUIDateAndTime /> */}
+      <MUITabs />
     </LocalizationProvider>
   );
 }
