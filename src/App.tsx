@@ -41,51 +41,57 @@ import MUITabs from "./components/36.MUITabs";
 import MUITimeLine from "./components/37.MUITimeLine";
 import MUIMasonry from "./components/38.MUIMasonry";
 import MUIResponsiveness from "./components/39.MUIResponsiveness";
+import MUICustomTheme from "./components/40.MUICustomTheme";
+import { ThemeProvider } from "@emotion/react";
+import customTheme from "./themes/customTheme1";
 
 function App() {
   return (
-    <LocalizationProvider dateAdapter={AdapterDayjs}>
-      {/* <MUITypography /> */}
-      {/* <MUIButtons /> */}
-      {/* <MUITextfield /> */}
-      {/* <MUISelectFiled /> */}
-      {/* <MUIRadioBtn /> */}
-      {/* <MUICheckBox /> */}
-      {/* <MUISwitchBtn /> */}
-      {/* <MUIRating /> */}
-      {/* <MUIAutoComplete /> */}
-      {/* <MUIBox /> */}
-      {/* <MUIStack /> */}
-      {/* <MUIGrid /> */}
-      {/* <MUIPaper /> */}
-      {/* <MUICard /> */}
-      {/* <MUIAccordion /> */}
-      {/* <MUIAccordion2 /> */}
-      {/* <MUIImagesList /> */}
-      {/* <MUINavbar /> */}
-      {/* <MUILink /> */}
-      {/* <MUIBreadCrumbs /> */}
-      {/* <MUIDrawer /> */}
-      {/* <MUISpeedDial /> */}
-      {/* <MUIButtonNavigation /> */}
-      {/* <MUIAvtar /> */}
-      {/* <MUIBadge /> */}
-      {/* <MUIList /> */}
-      {/* <MUIChip /> */}
-      {/* <MUITooltip /> */}
-      {/* <MUITable /> */}
-      {/* <MUIAlert /> */}
-      {/* <MUISnackbar /> */}
-      {/* <MUIDialog /> */}
-      {/* <MUIProgress /> */}
-      {/* <MUISkeleton /> */}
-      {/* <MUILoadingBtn /> */}
-      {/* <MUIDateAndTime /> */}
-      {/* <MUITabs /> */}
-      {/* <MUITimeLine /> */}
-      {/* <MUIMasonry /> */}
-      <MUIResponsiveness />
-    </LocalizationProvider>
+    // <ThemeProvider theme={customTheme}>
+      <LocalizationProvider dateAdapter={AdapterDayjs}>
+        {/* <MUITypography /> */}
+        <MUIButtons />
+        {/* <MUITextfield /> */}
+        {/* <MUISelectFiled /> */}
+        {/* <MUIRadioBtn /> */}
+        {/* <MUICheckBox /> */}
+        {/* <MUISwitchBtn /> */}
+        {/* <MUIRating /> */}
+        {/* <MUIAutoComplete /> */}
+        {/* <MUIBox /> */}
+        {/* <MUIStack /> */}
+        {/* <MUIGrid /> */}
+        {/* <MUIPaper /> */}
+        {/* <MUICard /> */}
+        {/* <MUIAccordion /> */}
+        {/* <MUIAccordion2 /> */}
+        {/* <MUIImagesList /> */}
+        {/* <MUINavbar /> */}
+        {/* <MUILink /> */}
+        {/* <MUIBreadCrumbs /> */}
+        {/* <MUIDrawer /> */}
+        {/* <MUISpeedDial /> */}
+        {/* <MUIButtonNavigation /> */}
+        {/* <MUIAvtar /> */}
+        {/* <MUIBadge /> */}
+        {/* <MUIList /> */}
+        {/* <MUIChip /> */}
+        {/* <MUITooltip /> */}
+        {/* <MUITable /> */}
+        {/* <MUIAlert /> */}
+        {/* <MUISnackbar /> */}
+        {/* <MUIDialog /> */}
+        {/* <MUIProgress /> */}
+        {/* <MUISkeleton /> */}
+        {/* <MUILoadingBtn /> */}
+        {/* <MUIDateAndTime /> */}
+        {/* <MUITabs /> */}
+        {/* <MUITimeLine /> */}
+        {/* <MUIMasonry /> */}
+        {/* <MUIResponsiveness /> */}
+        {/* <MUICustomTheme /> */}
+      </LocalizationProvider>
+    // </ThemeProvider>
   );
 }
 

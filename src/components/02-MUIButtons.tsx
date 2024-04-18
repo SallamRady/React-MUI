@@ -114,11 +114,15 @@ export default function MUIButtons() {
         >
           <Button onClick={() => console.log("Btn 1")}>Left</Button>
           <Button onClick={() => console.log("Btn 2")}>Center</Button>
-          <Button onClick={() => console.log("Btn 3  ")}>Right</Button>
+          <Button onClick={() => console.log("Btn 3")}>Right</Button>
         </ButtonGroup>
       </Stack>
       {/* Toggle Buttons */}
-      <Stack direction={"row"}>
+      <Stack direction={"row"} spacing={3}>
+        <ToggleButton value={"bold"} aria-label="bold">
+          <FormatBoldIcon />
+        </ToggleButton>
+
         <ToggleButtonGroup
           value={textFormats}
           size="small"
