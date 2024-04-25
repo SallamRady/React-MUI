@@ -50,7 +50,7 @@ function App() {
     // <ThemeProvider theme={customTheme}>
       <LocalizationProvider dateAdapter={AdapterDayjs}>
         {/* <MUITypography /> */}
-        <MUIButtons />
+        {/* <MUIButtons /> */}
         {/* <MUITextfield /> */}
         {/* <MUISelectFiled /> */}
         {/* <MUIRadioBtn /> */}
@@ -79,7 +79,7 @@ function App() {
         {/* <MUITooltip /> */}
         {/* <MUITable /> */}
         {/* <MUIAlert /> */}
-        {/* <MUISnackbar /> */}
+        <MUISnackbar />
         {/* <MUIDialog /> */}
         {/* <MUIProgress /> */}
         {/* <MUISkeleton /> */}
